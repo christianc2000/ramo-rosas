@@ -708,7 +708,7 @@ const abar=document.getElementById('audio-bar');
 let currentSong=0;
 
 function showEmoji(x, y, isSpecial) {
-  const emojis = isSpecial ? ['💗', '👄'] : ['🌹', '🤍', '✨', '🌸', '🌿', '🤍'];
+  const emojis = isSpecial ? ['💗'] : ['🌹', '🤍', '✨', '🌸', '🌿', '🤍'];
   const emoji = emojis[Math.floor(Math.random() * emojis.length)];
   const el = document.createElement('div');
   el.textContent = emoji;
