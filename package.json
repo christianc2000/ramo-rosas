@@ -1,0 +1,24 @@
+{
+  "name": "Rosas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianc2000/ramo-rosas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christianc2000/ramo-rosas/issues"
+  },
+  "homepage": "https://github.com/christianc2000/ramo-rosas#readme",
+  "dependencies": {
+    "express": "^4.22.1"
+  }
+}
